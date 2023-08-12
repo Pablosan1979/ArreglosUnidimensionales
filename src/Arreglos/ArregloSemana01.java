@@ -26,10 +26,13 @@ public class ArregloSemana01 extends JFrame {
 
         lblNumero = new JLabel("numero");
         lblNumero.setForeground(Color.blue);
+        lblNumero.setHorizontalAlignment((int) CENTER_ALIGNMENT);
         lblPosicion = new JLabel("Posicion");
+        lblPosicion.setHorizontalAlignment((int) CENTER_ALIGNMENT);
         lblPosicion.setForeground(Color.blue);
         lblResultado = new JLabel("Resultado");
         lblResultado.setForeground(Color.blue);
+        lblResultado.setHorizontalAlignment((int) CENTER_ALIGNMENT);
         txtNumero = new JTextField();
         txtPosicion = new JTextField();
         txtResultado = new JTextField();
@@ -84,7 +87,7 @@ public class ArregloSemana01 extends JFrame {
         add(txtResultado);
 
         pack();
-        setBounds(600, 400,600,400);
+        setBounds(600, 400, 600, 400);
         setLocationRelativeTo(null);
     }
 
